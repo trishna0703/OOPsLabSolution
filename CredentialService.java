@@ -25,8 +25,6 @@ public class CredentialService {
 			
 		} catch (StringIndexOutOfBoundsException e) {
 			System.out.println("Sorry! Index is out of bound.");
-		} catch (NullPointerException e) {
-			System.out.println("Sorry! The password could not be generated.");
 		}
 		
 		return password;
